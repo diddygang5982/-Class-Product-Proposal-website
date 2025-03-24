@@ -1,10 +1,10 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif; /* Set font to Times New Roman */
   line-height: 1.6;
   margin: 0;
   padding: 20px;
   background-color: #f4f4f4;
-  color: #315;
+  color: #333;
 }
 
 header {
@@ -14,12 +14,14 @@ header {
 
 h1 {
   color: #2c3e50;
+  font-size: 2.5em; /* Slightly larger for emphasis */
 }
 
 h2 {
   color: #34495e;
   border-bottom: 2px solid #34495e;
   padding-bottom: 5px;
+  font-size: 1.8em; /* Larger for section headings */
 }
 
 section {
