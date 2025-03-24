@@ -26,6 +26,7 @@ h2 {
   border-bottom: 2px solid #34495e;
   padding-bottom: 5px;
   font-size: 1.8em;
+  display: inline-block; /* Ensure border-bottom doesn't stretch full width */
 }
 
 section {
@@ -33,8 +34,10 @@ section {
 }
 
 ul, ol {
-  list-style-position: inside; /* Center lists */
+  list-style-position: inside; /* Center list bullets/numbers */
   padding-left: 0; /* Remove default padding */
+  display: inline-block; /* Center the list itself */
+  text-align: left; /* Align list text to the left within the centered block */
 }
 
 footer {
